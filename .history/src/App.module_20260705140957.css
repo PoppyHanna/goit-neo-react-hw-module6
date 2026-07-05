@@ -1,0 +1,37 @@
+body {
+  font-family: "Brush Script MT", cursive;
+  font-size: 20px;
+  color: #4700b3;
+  background-color: azure;
+}
+ul {
+  list-style: none;
+}
+button {
+  cursor: pointer;
+}
+
+.container {
+  margin-top: 30px;
+  margin-left: 30px;
+  padding: 30px;
+  border: 2px solid #000;
+  border-radius: 3px;
+  background-color: #fff;
+  /* max-width: 1440px; */
+}
+
+.title {
+  display: flex;
+  font-size: 62px;
+  text-shadow: 6px 6px 8px #e0fffd;
+  background-image: linear-gradient(120deg, #306ad5 30%, #ff69b4);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+  justify-content: center;
+  margin: 15px 0;
+  height: 70px;
+  align-items: center;
+  width: 305px;
+}

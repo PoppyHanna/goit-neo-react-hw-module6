@@ -1,0 +1,55 @@
+.box {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 15px;
+}
+.name {
+  margin: 0;
+  font-size: 20px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+
+.number {
+  margin: 0;
+  padding-bottom: 10px;
+  padding-left: 15px;
+}
+
+.icon {
+  vertical-align: text-bottom;
+  width: 35px;
+  height: 35px;
+  color: #ec328f;
+}
+
+.trash {
+  /* vertical-align: middle; */
+  margin-top: 5px;
+}
+
+.btn {
+  display: flex;
+  /* align-items: center; */
+  justify-content: center;
+  margin: 10px;
+}
+
+.button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-radius: 8px;
+  padding: 8px 16px;
+  width: 120px;
+  height: 40px;
+  background: linear-gradient(to bottom right, #6666ff 0%, #ff99cc 100%);
+  border: none;
+}
+.button:hover,
+.button:focus {
+  background: linear-gradient(to top left, #6666ff 0%, #ff00ff 100%);
+}
